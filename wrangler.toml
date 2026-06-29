@@ -1,12 +1,8 @@
-name = "# wrangler.toml
-name = 'vlemss'5" # todo
-#name = "cf-worker-connect-test" # todo
-#main = "test/worker/cf-cdn-cgi-trace2.js"
+name = "v20251104"
+main = "_worker.js"
+compatibility_date = "2025-11-04"
+keep_vars = true
 
-#main = "test/worker/worker-connect-test.js"
-main = "src/worker-vless.js"
-
-compatibility_date = "2024-04-15"
-
-[vars]
-# UUID = "example_dev_token"
+#[[kv_namespaces]]
+#binding = "KV"			#KV绑定名默认不可修改
+#id = "92055b9c78e444bba0d2e3f90b4ef03c"				#KV数据库id
